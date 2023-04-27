@@ -23,7 +23,7 @@ import "p4/v1/p4data.proto";
 
 package p4.v1;
 
-option go_package = "github.com/p4lang/p4runtime/go/p4/v1";
+option go_package = "github.com/vishala-r/p4runtime-dev/go/p4/v1";
 option cc_enable_arenas = true;
 
 service P4Runtime {
