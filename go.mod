@@ -1,4 +1,4 @@
-module github.com/p4lang/p4runtime
+module github.com/vishala-r/p4runtime-dev
 
 go 1.14
 
