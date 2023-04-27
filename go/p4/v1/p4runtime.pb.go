@@ -25,7 +25,8 @@ package v1
 import (
 	proto "github.com/golang/protobuf/proto"
 	any1 "github.com/golang/protobuf/ptypes/any"
-	v1 "github.com/p4lang/p4runtime/go/p4/config/v1"
+	//v1 "github.com/p4lang/p4runtime/go/p4/config/v1"
+	v1 "github.com/vishala-r/p4runtime-dev/go/p4/config/v1"
 	status "google.golang.org/genproto/googleapis/rpc/status"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

@@ -93,7 +93,7 @@ py_proto_library(
 
 go_proto_library(
     name = "p4info_go_proto",
-    importpath = "github.com/p4lang/p4runtime/go/p4/config/v1",
+    importpath = "github.com/vishala-r/p4runtime-dev/go/p4/config/v1",
     protos = [
         ":p4info_proto",
         ":p4types_proto",
@@ -102,7 +102,7 @@ go_proto_library(
 
 go_proto_library(
     name = "p4runtime_go_proto",
-    importpath = "github.com/p4lang/p4runtime/go/p4/v1",
+    importpath = "github.com/vishala-r/p4runtime-dev/go/p4/v1",
     protos = [
         ":p4data_proto",
         ":p4runtime_proto",
